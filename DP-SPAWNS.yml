@@ -1,0 +1,29 @@
+#_______________________________________________________________________________
+#
+#-------------------------------+ INFORMATION +--------------------------------#
+#_______________________________________________________________________________
+
+# File: DP-SPAWNS
+
+# Created by: Buguser
+# Version: 1.5.0
+# Server Version: Paper - 1.19
+# Hard-Dependencies:
+# - MythicMobs (tested in v5.1.2)
+
+# Join my Discord-Server for support: https://discord.gg/z6A4dk25BC
+
+#_______________________________________________________________________________
+#
+#--------------------------------+ ORC SPAWNS +--------------------------------#
+#_______________________________________________________________________________
+
+### 1. Orcling
+BUG_DP_Orcling_Spawn:
+  Type: BUG_DP_Orcling
+  Worlds: roleplay
+  Chance: 1
+  Action: ADD
+  Reason: NATURAL
+  Conditions:
+  - entitytype{t=ZOMBIE} true
